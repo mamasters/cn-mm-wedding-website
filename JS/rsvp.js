@@ -22,12 +22,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Handle form submission
     rsvpForm.addEventListener('submit', function(e) {
-      // For this demo, we'll just show the success message
-      // In production with Formspree, this would actually submit
-      // e.preventDefault();
-      
-      // You'd remove this preventDefault() when using actual Formspree
-      // and the actual form would submit to their servers
       
       rsvpForm.style.display = 'none';
       formSuccess.style.display = 'block';
