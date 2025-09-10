@@ -713,6 +713,11 @@ button[type="submit"] {
   white-space: pre-line;
 }
 
+.qr-code {
+  width: 200px;
+  height: auto;
+}
+
 
 @media (max-width: 768px) {
   .registry-section {
